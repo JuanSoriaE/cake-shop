@@ -1,4 +1,7 @@
-# cake-shop
+# 05 - VueJS
+Código y capturas de la misión VueJS.
+
+1. [Capturas de pantalla (archivos)](./Capturas)
 
 ## Project setup
 ```
@@ -15,5 +18,16 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Capturas de Pantalla
+
+Página principal
+![](./Capturas/main-page.png)
+
+Página de personalización
+![](./Capturas/customize-cake-page.png)
+
+Página del administrador
+![](./Capturas/admin-page.png)
+
+Modal alert
+![](./Capturas/modal-alert.png)
