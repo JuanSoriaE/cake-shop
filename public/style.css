@@ -1,0 +1,77 @@
+:root {
+    --main-color: #ff4b58;
+    --font-color: rgb(25, 25, 44);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    color: var(--font-color);
+    background-image: url('./bg.svg');
+    background-repeat: no-repeat;
+    background-size: auto 100vh;
+    background-color: rgb(240, 240, 240);
+}
+
+#cakes {
+    background-image: url('./cakes-bg.svg');
+    background-repeat: no-repeat;
+    background-size: auto 50vh;
+}
+
+#toppings a > span {
+    color: var(--font-color);
+}
+
+#toppings a > svg {
+    stroke: var(--font-color);
+}
+
+.aContainer a > #textButtonCustomize {
+    color: var(--font-color);
+}
+
+.aContainer a > #svgButtonCustomize {
+    stroke: var(--font-color);
+}
+
+/* Custom checkbox */
+.checkbox-customize {
+    -webkit-appearance: none;
+    float: right;
+    width: 24px;
+    height: 24px;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    transition: all 0.1s;
+    outline: 1px solid var(--main-color);
+    background-size: 18px 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.checkbox-customize:focus {
+    outline: 1px solid var(--main-color);
+}
+
+.checkbox-customize:checked {
+    background-color: var(--main-color);
+    background-image: url('./white-check.png');
+}
+
+.small-check {
+    width: 18px;
+    height: 18px;
+    background-size: 14px 13px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 2px 2px 10px rgba(255, 75, 88, 0.5), -2px 2px 10px rgba(255, 75, 88, 0.5), -2px -2px 10px rgba(255, 75, 88, 0.5), 2px -2px 10px rgba(255, 75, 88, 0.5);
+}
